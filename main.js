@@ -32,6 +32,8 @@ button.style.color = 'white';
 button.style.border = 'none';
 button.style.borderRadius = '10px';
 
+alert(`sizning modemId: 123456
+parol: 1221`);
 
 function login() {
     const modmeId = document.getElementById('modmeId').value;
@@ -85,7 +87,7 @@ let box = document.querySelector(".box-text");
 let uy = document.querySelector(".uy");
 
 form.style.display = 'none';
-input.style.width = '320px';
+input.style.width = '220px';
 input.style.height = '30px';
 input.style.margin = '10px';
 input.style.padding = '10px';
