@@ -46,6 +46,10 @@ function login() {
     if (modmeId === correctModmeId && password === correctPassword) {
         ans.style.display = 'none';
         button.style.marginBottom = '100px';
+        button.addEventListener('click', () => {
+            ques.style.display = 'block';
+            add.style.display = 'block';
+        })
         alert('Siz saytga kirdingiz!');
     } else {
         ans.style.display = 'block';
@@ -75,10 +79,6 @@ add.style.color = 'white';
 add.style.border = 'none';
 add.style.borderRadius = '10px';
 
-button.addEventListener('click', () => {
-    ques.style.display = 'block';
-    add.style.display = 'block';
-})
 
 let form = document.querySelector(".form");
 let input = document.querySelector(".input");
